@@ -1,0 +1,167 @@
+/**基本色*/
+$primarycolor: rgba(64, 158, 255, 1);
+$primarycolor9: rgba(64, 158, 255, .9);
+$primarycolor8: rgba(64, 158, 255, .8);
+$primarycolor7: rgba(64, 158, 255, .7);
+$primarycolor6: rgba(64, 158, 255, .6);
+$primarycolor5: rgba(64, 158, 255, .5);
+$primarycolor4: rgba(64, 158, 255, .4);
+$primarycolor3: rgba(64, 158, 255, .3);
+$primarycolor2: rgba(64, 158, 255, .2);
+$primarycolor1: rgba(64, 158, 255, .1);
+
+/**成功颜色 success*/
+$successcolor: rgba(103, 194, 58, 1);
+$successcolor9: rgba(103, 194, 58, .9);
+$successcolor8: rgba(103, 194, 58, .8);
+$successcolor7: rgba(103, 194, 58, .7);
+$successcolor6: rgba(103, 194, 58, .6);
+$successcolor5: rgba(103, 194, 58, .5);
+$successcolor4: rgba(103, 194, 58, .4);
+$successcolor3: rgba(103, 194, 58, .3);
+$successcolor2: rgba(103, 194, 58, .2);
+$successcolor1: rgba(103, 194, 58, .1);
+
+/**警告颜色 warning */
+$warningcolor: rgba(230, 162, 60, 1);
+$warningcolor9: rgba(230, 162, 60, .9);
+$warningcolor8: rgba(230, 162, 60, .8);
+$warningcolor7: rgba(230, 162, 60, .7);
+$warningcolor6: rgba(230, 162, 60, .6);
+$warningcolor5: rgba(230, 162, 60, .5);
+$warningcolor4: rgba(230, 162, 60, .4);
+$warningcolor3: rgba(230, 162, 60, .3);
+$warningcolor2: rgba(230, 162, 60, .2);
+$warningcolor1: rgba(230, 162, 60, .1);
+
+
+/**危险颜色 danger */
+$dangercolor: rgba(245, 108, 108, 1);
+$dangercolor9: rgba(245, 108, 108, .9);
+$dangercolor8: rgba(245, 108, 108, .8);
+$dangercolor7: rgba(245, 108, 108, .7);
+$dangercolor6: rgba(245, 108, 108, .6);
+$dangercolor5: rgba(245, 108, 108, .5);
+$dangercolor4: rgba(245, 108, 108, .4);
+$dangercolor3: rgba(245, 108, 108, .3);
+$dangercolor2: rgba(245, 108, 108, .2);
+$dangercolor1: rgba(245, 108, 108, .1);
+
+/**信息颜色 info */
+$infocolor: rgba(144, 147, 153, 1);
+$infocolor9: rgba(144, 147, 153, .9);
+$infocolor8: rgba(144, 147, 153, .8);
+$infocolor7: rgba(144, 147, 153, .7);
+$infocolor6: rgba(144, 147, 153, .6);
+$infocolor5: rgba(144, 147, 153, .5);
+$infocolor4: rgba(144, 147, 153, .4);
+$infocolor3: rgba(144, 147, 153, .3);
+$infocolor2: rgba(144, 147, 153, .2);
+$infocolor1: rgba(144, 147, 153, .1);
+
+/**
+ * 透明色
+ */
+$transparent:transparent;
+
+
+$whitecolor:#fff;
+$blackcolor:#000;
+$color:rgb(0,0,0);
+$color1:rgb(20,20,20);
+$color2:rgb(40,40,40);
+$color3:rgb(60,70,70);
+$color4:rgb(80,80,80);
+$color5:rgb(100,100,100);
+$color6:rgb(120,120,120);
+$color7:rgb(140,140,140);
+$color8:rgb(160,160,160);
+$color9:rgb(180,180,180);
+$color10:rgb(200,200,200);
+$color11:rgb(220,220,220);
+$color12:rgb(240,240,240);
+$color13:rgb(255,255,255);
+
+$x: 20rpx;
+$x1: 1rpx;
+$x2: 2rpx;
+$x3: 3rpx;
+$x4: 4rpx;
+$x5: 5rpx;
+$x6: 6rpx;
+$x8: 8rpx;
+$x10: 10rpx;
+$x12: 12rpx;
+$x14: 14rpx;
+$x15: 15rpx;
+$x16: 16rpx;
+$x18: 18rpx;
+$x20: 20rpx;
+$x22: 22rpx;
+$x24: 24rpx;
+$x26: 26rpx;
+$x28: 28rpx;
+$x30: 30rpx;
+$x32: 32rpx;
+$x34: 34rpx;
+$x36: 36rpx;
+$x38: 38rpx;
+$x40: 40rpx;
+$x42: 42rpx;
+$x44: 44rpx;
+$x46: 46rpx;
+$x48: 48rpx;
+$x50: 50rpx;
+$x52: 52rpx;
+$x54: 54rpx;
+$x56: 56rpx;
+$x58: 58rpx;
+$x60: 60rpx;
+$x62: 62rpx;
+$x64: 64rpx;
+$x66: 66rpx;
+$x68: 68rpx;
+$x70: 70rpx;
+$x72: 72rpx;
+$x74: 74rpx;
+$x76: 76rpx;
+$x78: 78rpx;
+$x80: 80rpx;
+$x82: 82rpx;
+$x84: 84rpx;
+$x86: 86rpx;
+$x88: 88rpx;
+$x90: 90rpx;
+$x92: 92rpx;
+$x94: 94rpx;
+$x96: 96rpx;
+$x98: 98rpx;
+$x100: 100rpx;
+$x102: 102rpx;
+$x104: 104rpx;
+$x106: 106rpx;
+$x108: 108rpx;
+$x110: 110rpx;
+$x112: 112rpx;
+$x114: 114rpx;
+$x116: 116rpx;
+$x118: 118rpx;
+$x120: 120rpx;
+$x140: 140rpx;
+$x160: 160rpx;
+$x180: 180rpx;
+$x200: 200rpx;
+$x220: 220rpx;
+$x240: 240rpx;
+$x260: 260rpx;
+$x280: 280rpx;
+$x300: 300rpx;
+$x320: 320rpx;
+$x360: 360rpx;
+$x400: 400rpx;
+$x440: 440rpx;
+$x480: 480rpx;
+$x520: 520rpx;
+$x560: 560rpx;
+$x600: 600rpx;
+
