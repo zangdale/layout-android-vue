@@ -12,6 +12,16 @@ copy [https://gitee.com/jpw_code/android-vue](https://gitee.com/jpw_code/android
 #### 软件架构
 软件架构说明，使用android webview 承载vue页面，在vue页面请求通过webView调用js方法，通过反射执行请求，并返回结果。
 
+流程：
+vue --> android-js(伪装为http) --> android func（伪装 http 服务）
+
+文件流程：
+main.js(Vue.use(androidVue);) --> 
+android-vue.js(Vue.prototype.$ano = {) --> 
+api-android-action.js(let result = window.androidJS.executeMethod(router, method || 'GET', data);) --> 
+JavaScriptObject.java(Object res = CoreEventHander.executeMethodOfController(_action, jsonParam, this.mContext)) --> 
+AppActivity.java(webView.addJavascriptInterface(new JavaScriptObject(this, webView), "androidJS");)
+
 
 #### 安装教程
 
